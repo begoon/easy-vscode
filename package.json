@@ -1,0 +1,38 @@
+{
+  "name": "easy-vscode-extension",
+  "displayName": "easy-vscode-extension",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "easy",
+        "aliases": [
+          "Easy",
+          "easy"
+        ],
+        "extensions": [
+          ".easy",
+          ".es"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "easy",
+        "scopeName": "source.easy",
+        "path": "./syntaxes/easy.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
+  }
+}
