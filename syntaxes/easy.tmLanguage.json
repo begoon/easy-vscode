@@ -7,6 +7,10 @@
             "match": "\\b(PROGRAM|END|EXTERNAL|PROCEDURE|SET|FUNCTION|TYPE|IS|ARRAY|OF|STRUCTURE|FIELD|DECLARE|NAME|BEGIN|FOR|DO|BY|TO|WHILE|IF|THEN|ELSE|FI|CALL|RETURN|EXIT|SELECT|CASE|OTHERWISE|REPEAT|REPENT|NPUT|OUTPUT|INTEGER|REAL|BOOLEAN|STRING|MOD|XOR|NOT)\\b"
         },
         {
+            "name": "constant.other.easy",
+            "match": "\\b(TRUE|FALSE)\\b"
+        },
+        {
             "name": "string.quoted.double.easy",
             "begin": "\"",
             "end": "\"",
